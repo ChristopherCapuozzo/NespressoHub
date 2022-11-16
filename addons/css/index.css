@@ -11,6 +11,13 @@ body {
 
 .logo {
     width: 71px;
+    margin-right: 5px;
+}
+
+.logo-help {
+    width: 30px;
+    color: white;
+    margin-left: 5px;
 }
 
 .navbar {
@@ -21,13 +28,15 @@ body {
     align-items: center;
     border: 5px 5px 5px 5px;
     border-color: white;
-    /*background-color: darkgray;*/
+    
 }
 
 .title-navbar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 /* #### Propriété de la Section ####*/
