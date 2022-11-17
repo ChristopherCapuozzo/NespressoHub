@@ -43,6 +43,13 @@ body {
 /* #### Propriété de la Section ####*/
 
 .section-1 {
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -50,7 +57,7 @@ body {
 
 /* #### Propriété des Boutons ####*/
 
-.bouton {
+.bouton-1 {
     background-color: white;
     width: 300px;
     height: auto;
@@ -59,11 +66,124 @@ body {
     text-decoration: none;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
     
 }
 
-.bouton:hover {
+.bouton-2 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
+    animation-delay: 1s;
+}
+
+.bouton-3 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
+    animation-delay: 2s;
+}
+
+.bouton-4 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
+    animation-delay: 3s;
+}
+
+.bouton-5 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
+    animation-delay: 4s;
+}
+
+.bouton-1:hover {
     background-color: darkgray;
-    transform: scale(1.05);
-    transition: 0.4s;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bouton-2:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bouton-3:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bouton-4:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bouton-5:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/*@keyframes BoutonLoop {
+    30%{
+        background-color: white;
+        transform: scale(1.1);
+    }
+
+    80%{
+        background-color: gray;
+        transform: scale(1);
+    }
+}*/
+
+/* #### Propriété du Footer ####*/
+
+.footer-display {
+    margin-top: 25%;
+}
+
+/* #### Propriété des crédits ####*/
+
+.footer-name {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation: FooterName infinite 3s;
+}
+
+@keyframes FooterName {
+    30%{
+        color: black;
+    }
+    70%{
+        color: white;
+    }
 }
