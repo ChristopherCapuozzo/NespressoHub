@@ -55,6 +55,12 @@ body {
     justify-content: center;
 }
 
+.section-3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 /* #### Propriété des Boutons ####*/
 
 .bouton-1 {
@@ -186,7 +192,7 @@ body {
 /* #### Propriété du Footer ####*/
 
 .footer-display {
-    margin-top: 25%;
+    margin-top: 50px;
 }
 
 /* #### Propriété des crédits ####*/
