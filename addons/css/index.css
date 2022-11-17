@@ -122,6 +122,19 @@ body {
     animation-delay: 4s;
 }
 
+.bouton-6 {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: BoutonLoop infinite 5s;
+    animation-delay: 4s;
+}
+
 .bouton-1:hover {
     background-color: darkgray;
     transform: scale(1.1);
@@ -147,6 +160,12 @@ body {
 }
 
 .bouton-5:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bouton-6:hover {
     background-color: darkgray;
     transform: scale(1.1);
     transition: 0.2s;
