@@ -15,8 +15,9 @@ body {
 }
 
 .logo-help {
-    width: 30px;
+    width: 25px;
     color: white;
+    margin-top: 10px;
     margin-left: 5px;
 }
 
